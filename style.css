@@ -1,17 +1,19 @@
-*{
-    margin: 5vh;
-    /* padding: 0; */
+* {
+    margin: 5vh0;
+    padding: 0;
     box-sizing: border-box;
-}
+  }
 
 body {
+    
     font-family: 'The Nautigal', cursive;
-    font-size: 2.5em;
+    font-size: 3.5em;
     letter-spacing: 0.1em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+    
 
 .container {
     /* background-color: aqua; */
@@ -20,22 +22,8 @@ body {
     align-items: center;
 }
 
-.word {
-    z-index: 2;
-}
-
-.shape {
-    width: 15rem;
-    height: 15rem;
-    background-color: bisque;
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-}
-
 .card {
-    /* border: 1px solid black; */
-    min-height: 80vh;
+    min-height: 40vh;
     width: 35rem;
     display: flex;
     justify-content: center;
@@ -43,4 +31,23 @@ body {
     text-align: center;
     border-radius: 30px;
     box-shadow: 1px 1px 40px pink;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
+
+.shape {
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(236, 215, 255);
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translateZ(30px);
+    /* box-shadow: 1px 1px 20px pink; */
+}
+
+.word {
+    z-index: 2;
+    transform: translateZ(80px)
+}
+
