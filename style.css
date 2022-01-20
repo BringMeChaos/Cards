@@ -20,10 +20,17 @@ body {
     align-items: center;
 }
 
+.word {
+    z-index: 2;
+}
+
 .shape {
     width: 15rem;
     height: 15rem;
-    background-color: bisque
+    background-color: bisque;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
 }
 
 .card {
