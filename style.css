@@ -7,7 +7,7 @@
 body {
     
     font-family: 'The Nautigal', cursive;
-    font-size: 3.5em;
+    font-size: 3em;
     letter-spacing: 0.1em;
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@ body {
 }
 
 .card {
-    min-height: 40vh;
-    width: 35rem;
+    height: 60vh;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@ body {
 }
 
 .shape {
-    width: 20rem;
-    height: 20rem;
+    width: 40vh;
+    height: 40vh;
     background-color: rgb(236, 215, 255);
     position: absolute;
     border-radius: 50%;
