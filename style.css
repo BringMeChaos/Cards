@@ -7,13 +7,16 @@
 body {
     
     font-family: 'The Nautigal', cursive;
-    font-size: 3em;
+    font-size: 3.5em;
     letter-spacing: 0.1em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
     
+a {
+    text-decoration: none;
+}
 
 .container {
     /* background-color: aqua; */
@@ -50,4 +53,3 @@ body {
     z-index: 2;
     transform: translateZ(80px)
 }
-
